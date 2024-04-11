@@ -26,7 +26,8 @@ public class Demo002 {
         int opcion;
         // usar printf;
         cadenaFinal = String.format("%s con %d\n", cadena1, habitantes);
-        System.out.println("Ingrese un numero para imprimir la cadena");
+        System.out.println("Ingrese un numero entre 1 y 5 para imprimir la "
+                + "cadena original, caso contrario se presentra en mayusculas");
         opcion = entrada.nextInt();
         if (opcion >= 1 && opcion <= 5) {
             System.out.printf("%s", cadenaFinal);
