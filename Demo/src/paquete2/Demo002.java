@@ -24,7 +24,6 @@ public class Demo002 {
         String cadenaFinal;
         int habitantes = Informacion.obtenerHabitantes();
         int opcion;
-        // usar printf;
         cadenaFinal = String.format("%s con %d\n", cadena1, habitantes);
         System.out.println("Ingrese un numero entre 1 y 5 para imprimir la "
                 + "cadena original, caso contrario se presentra en mayusculas");
